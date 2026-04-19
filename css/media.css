@@ -83,7 +83,7 @@
   }
 
   .container-1{
-    padding: 140px 10px 0;
+    padding: 90px 10px 0;
   }
 
   .container {
@@ -111,6 +111,15 @@
     font-size: 20px;
     margin-bottom: 20px;
   }
+
+  .books{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .books-none{
+    display: none;
+  }
 }
 
 @media (max-width: 1024px) and (min-width: 501px) {
@@ -131,6 +140,10 @@
   .artist-top {
     text-align: center;
     margin-bottom: 40px;
+  }
+
+  .books{
+    display: none;
   }
 
   .item-img {
