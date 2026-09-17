@@ -90,7 +90,6 @@ header {
   max-width: 1024px;
   margin: 0 auto;
   padding: 24px;
-  background-color: #F5F1E8;
   border-radius: 8px;
   margin-bottom: 50px;
 }
@@ -99,6 +98,13 @@ header {
   max-width: 500px;
   width: 100%;
   height: 500px;
+  border-radius: 8px;
+}
+
+.video-new{
+  max-width: 620px;
+  width: 100%;
+  height: 450px;
   border-radius: 8px;
 }
 
